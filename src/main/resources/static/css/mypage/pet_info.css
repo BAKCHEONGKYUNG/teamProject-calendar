@@ -1,0 +1,37 @@
+@charset "utf-8";
+
+.profile-area {
+  width: 30%;
+}
+
+.profile-area {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 300px;
+  height: 150px;
+  max-width: 100%;
+  margin-bottom: 24px;
+  margin-left: 10px;
+  border-radius: 20px;
+  box-shadow: 0 3px 20px 0 rgb(0 0 0 / 6%);
+  background-color: var(--color-background);
+  box-sizing: border-box;
+}
+
+.profile-area .upload-area2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.profile-area .upload-area {
+  min-width: 80px;
+  height: auto;
+}
+
+.profile-area .pet-name,
+.profile-area .pet-info {
+  font-weight: bold;
+  margin: 5px;
+}
+
